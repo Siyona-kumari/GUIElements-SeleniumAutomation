@@ -37,10 +37,10 @@ public class GuiElementsTest extends BaseTest {
     private GuiElementsPage page;
 
     // ── Test data ────────────────────────────────────────────────────
-    private static final String NAME        = "John Doe";
-    private static final String EMAIL       = "johndoe@example.com";
+    private static final String NAME        = "Priya Sharma";
+    private static final String EMAIL       = "priya.sharma@example.com";
     private static final String PHONE       = "9876543210";
-    private static final String ADDRESS     = "123 MG Road, Bangalore, Karnataka 560001";
+    private static final String ADDRESS     = "42, Rose Garden, MG Road, Bengaluru - 560001";
     private static final String GENDER      = "female";
     private static final String COUNTRY     = "India";
     private static final String COLOR       = "Blue";
