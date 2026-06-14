@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="16" passed="7" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-14T11:37:16 IST" name="GUI Elements Automation Suite" finished-at="2026-06-14T11:40:24 IST" duration-ms="187788">
+  <suite started-at="2026-06-14T22:37:30 IST" name="Default suite" finished-at="2026-06-14T22:40:22 IST" duration-ms="171893">
     <groups>
     </groups>
-    <test started-at="2026-06-14T11:37:16 IST" name="testautomationpractice.blogspot.com – Full GUI Suite" finished-at="2026-06-14T11:40:24 IST" duration-ms="187788">
+    <test started-at="2026-06-14T22:37:30 IST" name="Default test" finished-at="2026-06-14T22:40:22 IST" duration-ms="171893">
       <class name="tests.GuiElementsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:36:30 IST" name="setUp" finished-at="2026-06-14T11:37:16 IST" duration-ms="45591" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:37:22 IST" name="setUp" finished-at="2026-06-14T22:37:30 IST" duration-ms="8797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:16 IST" name="initPage" finished-at="2026-06-14T11:37:16 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:37:30 IST" name="initPage" finished-at="2026-06-14T22:37:30 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="test01_NameField()[pri:1, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:16 IST" name="test01_NameField" description="Enter text in the Name field" finished-at="2026-06-14T11:37:28 IST" duration-ms="11309" status="FAIL">
+        <test-method signature="test01_NameField()[pri:1, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:37:30 IST" name="test01_NameField" description="Enter text in the Name field" finished-at="2026-06-14T22:37:41 IST" duration-ms="10353" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
@@ -24,9 +24,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=name, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=name, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
@@ -35,9 +35,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=name, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=name, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01_NameField -->
-        <test-method signature="test02_EmailField()[pri:2, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:28 IST" name="test02_EmailField" description="Enter text in the Email field" finished-at="2026-06-14T11:37:39 IST" duration-ms="10798" status="FAIL">
+        <test-method signature="test02_EmailField()[pri:2, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:37:41 IST" name="test02_EmailField" description="Enter text in the Email field" finished-at="2026-06-14T22:37:51 IST" duration-ms="10170" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
@@ -99,9 +99,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=email, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=email, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
@@ -110,9 +110,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=email, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=email, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -165,7 +165,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02_EmailField -->
-        <test-method signature="test03_PhoneField()[pri:3, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:39 IST" name="test03_PhoneField" description="Enter text in the Phone field" finished-at="2026-06-14T11:37:49 IST" duration-ms="10630" status="FAIL">
+        <test-method signature="test03_PhoneField()[pri:3, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:37:51 IST" name="test03_PhoneField" description="Enter text in the Phone field" finished-at="2026-06-14T22:38:01 IST" duration-ms="10201" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='phone']"}
@@ -174,9 +174,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=phone, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=phone, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='phone']"}
@@ -185,9 +185,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=phone, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=phone, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -240,19 +240,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03_PhoneField -->
-        <test-method signature="test04_AddressField()[pri:4, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:49 IST" name="test04_AddressField" description="Enter text in the Address textarea" finished-at="2026-06-14T11:37:58 IST" duration-ms="8777" status="PASS">
+        <test-method signature="test04_AddressField()[pri:4, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:38:01 IST" name="test04_AddressField" description="Enter text in the Address textarea" finished-at="2026-06-14T22:38:08 IST" duration-ms="6919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_AddressField -->
-        <test-method signature="test05_RadioButton()[pri:5, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:37:58 IST" name="test05_RadioButton" description="Select Male radio button for Gender" finished-at="2026-06-14T11:38:06 IST" duration-ms="7466" status="PASS">
+        <test-method signature="test05_RadioButton()[pri:5, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:38:08 IST" name="test05_RadioButton" description="Select female radio button for Gender" finished-at="2026-06-14T22:38:15 IST" duration-ms="6506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test05_RadioButton -->
-        <test-method signature="test06_Checkboxes()[pri:6, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:38:06 IST" name="test06_Checkboxes" description="Check Monday, Wednesday, Friday checkboxes" finished-at="2026-06-14T11:38:20 IST" duration-ms="14625" status="PASS">
+        <test-method signature="test06_Checkboxes()[pri:6, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:38:15 IST" name="test06_Checkboxes" description="Check Monday, Wednesday, Friday checkboxes" finished-at="2026-06-14T22:38:28 IST" duration-ms="12954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test06_Checkboxes -->
-        <test-method signature="test07_Dropdowns()[pri:7, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:38:20 IST" name="test07_Dropdowns" description="Select values from Country, Colors and Animals dropdowns" finished-at="2026-06-14T11:38:45 IST" duration-ms="24253" status="FAIL">
+        <test-method signature="test07_Dropdowns()[pri:7, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:38:28 IST" name="test07_Dropdowns" description="Select values from Country, Colors and Animals dropdowns" finished-at="2026-06-14T22:38:51 IST" duration-ms="23197" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Animals']"}
@@ -261,9 +261,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=Animals, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=Animals, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Animals']"}
@@ -272,9 +272,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=Animals, using=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=Animals, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -327,7 +327,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test07_Dropdowns -->
-        <test-method signature="test08_DatePickers()[pri:8, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:38:45 IST" name="test08_DatePickers" description="Enter dates in both jQuery UI date pickers" finished-at="2026-06-14T11:39:05 IST" duration-ms="20354" status="FAIL">
+        <test-method signature="test08_DatePickers()[pri:8, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:38:51 IST" name="test08_DatePickers" description="Enter dates in both jQuery UI date pickers" finished-at="2026-06-14T22:39:08 IST" duration-ms="17098" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#datepicker2"}
@@ -336,9 +336,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=datepicker2, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=datepicker2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#datepicker2"}
@@ -347,9 +347,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=datepicker2, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=datepicker2, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -402,7 +402,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test08_DatePickers -->
-        <test-method signature="test09_FileUpload()[pri:9, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:05 IST" name="test09_FileUpload" description="Upload a file via the single file upload input" finished-at="2026-06-14T11:39:15 IST" duration-ms="10330" status="FAIL">
+        <test-method signature="test09_FileUpload()[pri:9, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:08 IST" name="test09_FileUpload" description="Upload a file via the single file upload input" finished-at="2026-06-14T22:39:18 IST" duration-ms="10156" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#singleFileUpload"}
@@ -411,9 +411,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=singleFileUpload, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=singleFileUpload, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#singleFileUpload"}
@@ -422,9 +422,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=singleFileUpload, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=singleFileUpload, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -477,7 +477,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test09_FileUpload -->
-        <test-method signature="test10_Slider()[pri:10, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:15 IST" name="test10_Slider" description="Move the jQuery UI price-range slider" finished-at="2026-06-14T11:39:26 IST" duration-ms="10339" status="FAIL">
+        <test-method signature="test10_Slider()[pri:10, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:18 IST" name="test10_Slider" description="Move the jQuery UI price-range slider" finished-at="2026-06-14T22:39:28 IST" duration-ms="10209" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#slider .ui-slider-handle"}
@@ -486,9 +486,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=#slider .ui-slider-handle, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=#slider .ui-slider-handle, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#slider .ui-slider-handle"}
@@ -497,9 +497,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=#slider .ui-slider-handle, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=#slider .ui-slider-handle, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -552,19 +552,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test10_Slider -->
-        <test-method signature="test11_SimpleAlert()[pri:11, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:26 IST" name="test11_SimpleAlert" description="Click the Simple Alert button and accept the alert" finished-at="2026-06-14T11:39:33 IST" duration-ms="7132" status="PASS">
+        <test-method signature="test11_SimpleAlert()[pri:11, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:28 IST" name="test11_SimpleAlert" description="Click the Simple Alert button and accept the alert" finished-at="2026-06-14T22:39:35 IST" duration-ms="6642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test11_SimpleAlert -->
-        <test-method signature="test12_ConfirmAlert()[pri:12, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:33 IST" name="test12_ConfirmAlert" description="Click Confirmation Alert button and accept it" finished-at="2026-06-14T11:39:40 IST" duration-ms="7335" status="PASS">
+        <test-method signature="test12_ConfirmAlert()[pri:12, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:35 IST" name="test12_ConfirmAlert" description="Click Confirmation Alert button and accept it" finished-at="2026-06-14T22:39:42 IST" duration-ms="6606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test12_ConfirmAlert -->
-        <test-method signature="test13_PromptAlert()[pri:13, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:40 IST" name="test13_PromptAlert" description="Click Prompt Alert button, type text, and accept" finished-at="2026-06-14T11:39:48 IST" duration-ms="7561" status="PASS">
+        <test-method signature="test13_PromptAlert()[pri:13, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:42 IST" name="test13_PromptAlert" description="Click Prompt Alert button, type text, and accept" finished-at="2026-06-14T22:39:48 IST" duration-ms="6554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test13_PromptAlert -->
-        <test-method signature="test14_MouseHover()[pri:14, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:48 IST" name="test14_MouseHover" description="Hover over &#039;Point Me&#039; and click &#039;Mobiles&#039; sub-link" finished-at="2026-06-14T11:39:58 IST" duration-ms="10301" status="FAIL">
+        <test-method signature="test14_MouseHover()[pri:14, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:48 IST" name="test14_MouseHover" description="Hover over &#039;Point Me&#039; and click &#039;Mobiles&#039; sub-link" finished-at="2026-06-14T22:39:58 IST" duration-ms="10126" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#hoverButton"}
@@ -573,9 +573,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=hoverButton, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=hoverButton, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#hoverButton"}
@@ -584,9 +584,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=hoverButton, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=hoverButton, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -639,7 +639,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test14_MouseHover -->
-        <test-method signature="test15_DoubleClick()[pri:15, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:39:58 IST" name="test15_DoubleClick" description="Double-click Copy button to copy Field1 text into Field2" finished-at="2026-06-14T11:40:16 IST" duration-ms="17426" status="FAIL">
+        <test-method signature="test15_DoubleClick()[pri:15, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:39:58 IST" name="test15_DoubleClick" description="Double-click Copy button to copy Field1 text into Field2" finished-at="2026-06-14T22:40:15 IST" duration-ms="16644" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#copyButton"}
@@ -648,9 +648,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=copyButton, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f]]>
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=copyButton, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#copyButton"}
@@ -659,9 +659,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ea5f288ded8fadddd083da799599a28f, findElement {value=copyButton, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54211}, goog:processID: 440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54211/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ea5f288ded8fadddd083da799599a28f
+Command: [cb783b77e6b481c34fffae57eb78163f, findElement {value=copyButton, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\siri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56585}, goog:processID: 25168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56585/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb783b77e6b481c34fffae57eb78163f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -714,15 +714,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test15_DoubleClick -->
-        <test-method signature="test16_DragAndDrop()[pri:16, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:40:16 IST" name="test16_DragAndDrop" description="Drag #draggable element and drop onto #droppable target" finished-at="2026-06-14T11:40:24 IST" duration-ms="7998" status="PASS">
+        <test-method signature="test16_DragAndDrop()[pri:16, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:40:15 IST" name="test16_DragAndDrop" description="Drag #draggable element and drop onto #droppable target" finished-at="2026-06-14T22:40:22 IST" duration-ms="7267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test16_DragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GuiElementsTest@5c153b9e]" started-at="2026-06-14T11:40:25 IST" name="tearDown" finished-at="2026-06-14T11:40:55 IST" duration-ms="29920" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GuiElementsTest@6035b93b]" started-at="2026-06-14T22:40:23 IST" name="tearDown" finished-at="2026-06-14T22:40:24 IST" duration-ms="1822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.GuiElementsTest -->
-    </test> <!-- testautomationpractice.blogspot.com – Full GUI Suite -->
-  </suite> <!-- GUI Elements Automation Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
