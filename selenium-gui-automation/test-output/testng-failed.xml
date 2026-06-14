@@ -3,22 +3,22 @@
 <suite name="Failed suite [GUI Elements Automation Suite]" guice-stage="DEVELOPMENT" verbose="2">
   <test thread-count="5" name="testautomationpractice.blogspot.com – Full GUI Suite(failed)" verbose="2">
     <classes>
-      <class name="com.automation.tests.GuiElementsTest">
+      <class name="tests.GuiElementsTest">
         <methods>
-          <include name="test10_Slider"/>
-          <include name="test02_EmailField"/>
-          <include name="tearDown"/>
-          <include name="initPage"/>
           <include name="test09_FileUpload"/>
-          <include name="setUp"/>
-          <include name="test07_Dropdowns"/>
-          <include name="test03_PhoneField"/>
+          <include name="test02_EmailField"/>
           <include name="test01_NameField"/>
-          <include name="test15_DoubleClick"/>
           <include name="test08_DatePickers"/>
+          <include name="initPage"/>
+          <include name="test15_DoubleClick"/>
+          <include name="test10_Slider"/>
           <include name="test14_MouseHover"/>
+          <include name="test03_PhoneField"/>
+          <include name="test07_Dropdowns"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.automation.tests.GuiElementsTest -->
+      </class> <!-- tests.GuiElementsTest -->
     </classes>
   </test> <!-- testautomationpractice.blogspot.com – Full GUI Suite(failed) -->
 </suite> <!-- Failed suite [GUI Elements Automation Suite] -->

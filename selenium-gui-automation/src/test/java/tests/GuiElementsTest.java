@@ -41,7 +41,7 @@ public class GuiElementsTest extends BaseTest {
     private static final String EMAIL       = "johndoe@example.com";
     private static final String PHONE       = "9876543210";
     private static final String ADDRESS     = "123 MG Road, Bangalore, Karnataka 560001";
-    private static final String GENDER      = "male";
+    private static final String GENDER      = "female";
     private static final String COUNTRY     = "India";
     private static final String COLOR       = "Blue";
     private static final String ANIMAL      = "Dog";
@@ -191,7 +191,7 @@ public class GuiElementsTest extends BaseTest {
     // ═══════════════════════════════════════════════════════════════
     //  TEST 05 – Gender Radio Button
     // ═══════════════════════════════════════════════════════════════
-    @Test(priority = 5, description = "Select Male radio button for Gender")
+    @Test(priority = 5, description = "Select female radio button for Gender")
     public void test05_RadioButton() {
         ExtentTest test = ExtentReportManager.createTest(
             "TC05 – Gender Radio Button",

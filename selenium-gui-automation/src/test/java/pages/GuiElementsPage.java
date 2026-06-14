@@ -50,13 +50,13 @@ public class GuiElementsPage {
     public void scrollTo(WebElement el) {
         js.executeScript(
             "arguments[0].scrollIntoView({block:'center',inline:'nearest'});", el);
-        sleep(300);
+        sleep(3000);
     }
 
     /** Scrolls the page by a pixel offset */
     public void scrollBy(int px) {
         js.executeScript("window.scrollBy(0," + px + ");");
-        sleep(300);
+        sleep(3000);
     }
 
     public void sleep(long ms) {

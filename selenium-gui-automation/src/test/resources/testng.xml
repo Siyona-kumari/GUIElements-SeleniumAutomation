@@ -13,7 +13,7 @@
 
     <test name="testautomationpractice.blogspot.com – Full GUI Suite">
         <classes>
-            <class name="com.automation.tests.GuiElementsTest"/>
+            <class name="tests.GuiElementsTest"/>
         </classes>
     </test>
 
